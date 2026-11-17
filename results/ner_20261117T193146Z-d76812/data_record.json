@@ -1,0 +1,41 @@
+{
+  "rows": {
+    "train": 14041,
+    "validation": 3250,
+    "test": 3453
+  },
+  "label_names": [
+    "O",
+    "B-PER",
+    "I-PER",
+    "B-ORG",
+    "I-ORG",
+    "B-LOC",
+    "I-LOC",
+    "B-MISC",
+    "I-MISC"
+  ],
+  "entity_types": [
+    "LOC",
+    "MISC",
+    "ORG",
+    "PER"
+  ],
+  "fingerprints": {
+    "train": "706cf01414c70570",
+    "validation": "0b12ea85cb702cbf",
+    "test": "94184a184db99cb8"
+  },
+  "normalized_exact_overlap_unique_sentences": {
+    "train_validation": 130,
+    "train_test": 78,
+    "validation_test": 26
+  },
+  "duplicate_sentence_rows_within_split": {
+    "train": 1360,
+    "validation": 182,
+    "test": 273
+  },
+  "model_revision": "cd5ef92a9fb2f889e972770a36d4ed042daf221e",
+  "dataset_revision": "19edcb426bfd625c275c17b9a99b2239243f4377"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "validation_runs": 9,
+  "final_test_verified": true,
+  "method": "reload NPZ and recalculate strict entity metrics"
+}

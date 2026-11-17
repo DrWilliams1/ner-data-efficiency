@@ -1,0 +1,62 @@
+{
+  "fraction_percent": 100,
+  "seed": 42,
+  "split": "test",
+  "metrics": {
+    "tp": 5104,
+    "fp": 552,
+    "fn": 544,
+    "gold_entities": 5648,
+    "predicted_entities": 5656,
+    "precision": 0.9024045261669024,
+    "recall": 0.9036827195467422,
+    "f1": 0.9030431705590941,
+    "n_sentences": 3453,
+    "n_words": 46435,
+    "word_accuracy": 0.9800796812749004,
+    "invalid_predicted_i_transitions": 94,
+    "per_type": {
+      "LOC": {
+        "tp": 1534,
+        "fp": 124,
+        "fn": 134,
+        "gold_entities": 1668,
+        "predicted_entities": 1658,
+        "precision": 0.9252110977080821,
+        "recall": 0.919664268585132,
+        "f1": 0.9224293445580276
+      },
+      "MISC": {
+        "tp": 558,
+        "fp": 188,
+        "fn": 144,
+        "gold_entities": 702,
+        "predicted_entities": 746,
+        "precision": 0.7479892761394102,
+        "recall": 0.7948717948717948,
+        "f1": 0.7707182320441989
+      },
+      "ORG": {
+        "tp": 1459,
+        "fp": 170,
+        "fn": 202,
+        "gold_entities": 1661,
+        "predicted_entities": 1629,
+        "precision": 0.8956414978514426,
+        "recall": 0.8783865141481035,
+        "f1": 0.8869300911854103
+      },
+      "PER": {
+        "tp": 1553,
+        "fp": 70,
+        "fn": 64,
+        "gold_entities": 1617,
+        "predicted_entities": 1623,
+        "precision": 0.9568699938385705,
+        "recall": 0.9604205318491033,
+        "f1": 0.9586419753086419
+      }
+    },
+    "scheme": "strict IOB2; exact word span and entity type"
+  }
+}

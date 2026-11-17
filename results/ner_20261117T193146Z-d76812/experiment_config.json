@@ -1,0 +1,27 @@
+{
+  "model_id": "google-bert/bert-base-cased",
+  "model_revision": "cd5ef92a9fb2f889e972770a36d4ed042daf221e",
+  "dataset_id": "lhoestq/conll2003",
+  "dataset_revision": "19edcb426bfd625c275c17b9a99b2239243f4377",
+  "fractions": [
+    0.1,
+    0.25,
+    1.0
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "test_seed": 42,
+  "epochs": 1,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "max_length": 512,
+  "selection_rule": "highest mean validation strict entity F1; exact tie uses smaller fraction",
+  "test_rule": "one checkpoint from chosen fraction using the first prespecified seed",
+  "precision": "float32",
+  "scheduler": "linear; zero warmup",
+  "training_order_seed": 20261116
+}

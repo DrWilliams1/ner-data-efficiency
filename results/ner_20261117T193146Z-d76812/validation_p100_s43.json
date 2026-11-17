@@ -1,0 +1,67 @@
+{
+  "fraction_percent": 100,
+  "seed": 43,
+  "n_training_sentences": 14041,
+  "training_seconds": 156.607358874,
+  "optimizer_steps": 878,
+  "training_loss": 0.11448022281933483,
+  "trainable_parameters": 107726601,
+  "initial_classifier_sha256": "61eb5dec473ed9590655039f082b345a69d85d5305309daafabf1ec77f7e22b0",
+  "metrics": {
+    "tp": 5531,
+    "fp": 404,
+    "fn": 411,
+    "gold_entities": 5942,
+    "predicted_entities": 5935,
+    "precision": 0.9319292333614153,
+    "recall": 0.9308313699091215,
+    "f1": 0.9313799781089501,
+    "n_sentences": 3250,
+    "n_words": 51362,
+    "word_accuracy": 0.9880651064989681,
+    "invalid_predicted_i_transitions": 84,
+    "per_type": {
+      "LOC": {
+        "tp": 1755,
+        "fp": 101,
+        "fn": 82,
+        "gold_entities": 1837,
+        "predicted_entities": 1856,
+        "precision": 0.9455818965517241,
+        "recall": 0.9553620032661949,
+        "f1": 0.950446791226645
+      },
+      "MISC": {
+        "tp": 784,
+        "fp": 131,
+        "fn": 138,
+        "gold_entities": 922,
+        "predicted_entities": 915,
+        "precision": 0.8568306010928962,
+        "recall": 0.8503253796095445,
+        "f1": 0.8535655960805661
+      },
+      "ORG": {
+        "tp": 1204,
+        "fp": 114,
+        "fn": 137,
+        "gold_entities": 1341,
+        "predicted_entities": 1318,
+        "precision": 0.91350531107739,
+        "recall": 0.8978374347501864,
+        "f1": 0.905603610379842
+      },
+      "PER": {
+        "tp": 1788,
+        "fp": 58,
+        "fn": 54,
+        "gold_entities": 1842,
+        "predicted_entities": 1846,
+        "precision": 0.9685807150595883,
+        "recall": 0.9706840390879479,
+        "f1": 0.9696312364425163
+      }
+    },
+    "scheme": "strict IOB2; exact word span and entity type"
+  }
+}

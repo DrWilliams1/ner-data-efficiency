@@ -1,0 +1,12 @@
+{
+  "fraction_percent": 100,
+  "seed": 42,
+  "mean_validation_f1": {
+    "10": 0.4679391410193641,
+    "25": 0.8240658776037274,
+    "100": 0.9311945514201586
+  },
+  "rule": "highest mean validation strict entity F1; exact tie uses smaller fraction",
+  "test_rule": "one checkpoint from chosen fraction using the first prespecified seed",
+  "checkpoint_weight_sha256": "1036d0845ef76560caf33d163abffdb33d517b89925881e6db5b6a6c044e8146"
+}

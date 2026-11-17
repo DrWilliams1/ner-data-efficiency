@@ -1,0 +1,174 @@
+{
+  "data_efficiency.png": {
+    "sha256": "467e87ae319ad115177c4effdad45eac7a57b2d14c947901a6cb1feeb566b510",
+    "size_bytes": 78591
+  },
+  "data_efficiency.svg": {
+    "sha256": "d0f347c6222c756895c9e8e2a7f6ff308db20e612acb37320fddd1ee0e50876e",
+    "size_bytes": 56234
+  },
+  "data_record.json": {
+    "sha256": "81f30fd3cd0348c9ef4499e74bd55810a7673a23d72c32296ac6f42b52055e32",
+    "size_bytes": 783
+  },
+  "environment.json": {
+    "sha256": "46c4a8c5e033078bcd20c65ae4109c882e8ad5730670d818996119e291df2744",
+    "size_bytes": 356
+  },
+  "experiment_config.json": {
+    "sha256": "3aacaa33375eb2f95f18638954a0e7f14f1b12c900ed0ff8df5e2818cae1ef65",
+    "size_bytes": 714
+  },
+  "final_test_metrics.json": {
+    "sha256": "8fdca4ec1e509568000c0cd7c86adb88582070ab91b64b155f99a5570e338c75",
+    "size_bytes": 1544
+  },
+  "final_test_predictions.npz": {
+    "sha256": "58d608d60707548289e2c49ba26e384c0a9893c988564c0906c9b6a78343b344",
+    "size_bytes": 1523031
+  },
+  "paired_validation_gains.csv": {
+    "sha256": "108ca939d3ba6fd2c07f368726cac3f7a860f07a61c39f10e005aec2546a9e5f",
+    "size_bytes": 164
+  },
+  "prediction_recheck.json": {
+    "sha256": "bc7cde9e487ee85f3071cda979133d6a72aa03a4a71b25f39920c65dc0aa9fa9",
+    "size_bytes": 144
+  },
+  "run_order.json": {
+    "sha256": "500bbcc03dabfcd28fed45dba9196786e0d89850f265734777f5bfa58e76ffbe",
+    "size_bytes": 222
+  },
+  "selection.json": {
+    "sha256": "41ccb9d7b8fc22b54e3cec0f4b5b02a808c1253c98595fc7fb2c5e91ccc9fd35",
+    "size_bytes": 438
+  },
+  "training_indices_p100_s42.json": {
+    "sha256": "d173f7f288a1fb28619fdb2eea95241f433dadcfa4eb1efe8ff886dbeda84a97",
+    "size_bytes": 115262
+  },
+  "training_indices_p100_s43.json": {
+    "sha256": "b1a95fb8803ade347e61084922abda195cdd8dd23c5f41a903318930de773168",
+    "size_bytes": 115262
+  },
+  "training_indices_p100_s44.json": {
+    "sha256": "5c31b26dbf09b2630b58856f67cc21d9cc2dee61af916289e3fb6ee5767102b0",
+    "size_bytes": 115262
+  },
+  "training_indices_p10_s42.json": {
+    "sha256": "dc19dadbab27a34555e8bf62e0d18e59b909762a2c52c00cff0d950925355c02",
+    "size_bytes": 11534
+  },
+  "training_indices_p10_s43.json": {
+    "sha256": "d536fe66f53c942bfc1f844059ad13f619cb1f21855f54b5b78ba4b6ddb46452",
+    "size_bytes": 11558
+  },
+  "training_indices_p10_s44.json": {
+    "sha256": "df90bc65e676c068ed1cc82650feaf3bed1e758f1bcd58598c78a87821bda2b5",
+    "size_bytes": 11541
+  },
+  "training_indices_p25_s42.json": {
+    "sha256": "9942b5c73cd7dcb83b8ffa9fdeddc3c094003de7dbf79ae498a384b20c66dd99",
+    "size_bytes": 28855
+  },
+  "training_indices_p25_s43.json": {
+    "sha256": "2f1ee0073edf670cae8b4d3fbed6c31457cad704591ed5388e960200735b3f30",
+    "size_bytes": 28825
+  },
+  "training_indices_p25_s44.json": {
+    "sha256": "aee04a2f44f30922c7522c8b7aa521b7944cf34a199640f7f55a1a9c14f52914",
+    "size_bytes": 28804
+  },
+  "training_subset_entity_counts.csv": {
+    "sha256": "0cd192a05366288b02f5e644e2f26a3b7c49d304052b974d818aac5ff7f27931",
+    "size_bytes": 321
+  },
+  "validation_comparison.csv": {
+    "sha256": "f793c5471baa516efd1d31a9cd54d40044ad3c4a267b91a28d295c59e8c21659",
+    "size_bytes": 1114
+  },
+  "validation_error_review.csv": {
+    "sha256": "b785b0be27d6ba140116394909da103ebfb38bdf37530c4ad3d9e7d028d6e1e6",
+    "size_bytes": 44389
+  },
+  "validation_p100_s42.json": {
+    "sha256": "1787c96e89305e73f13ef8681778f954c7196f18b33e16f715453a305d35c92f",
+    "size_bytes": 1897
+  },
+  "validation_p100_s42.npz": {
+    "sha256": "9d6bad561296527d7b39c406f9a2676f659e099a4b6094c11f58c6603311bd7a",
+    "size_bytes": 1681178
+  },
+  "validation_p100_s43.json": {
+    "sha256": "10ce4614f08b8be7e5e455d8debc6c400221f01bcd1fd616338687e72dc45a5a",
+    "size_bytes": 1793
+  },
+  "validation_p100_s43.npz": {
+    "sha256": "ecb71d3903b5fba0d530338d00eee87b3264d00e943b5dbb6b8c4f3530ba808e",
+    "size_bytes": 1685510
+  },
+  "validation_p100_s44.json": {
+    "sha256": "4f1328008393e73a948373ef47acb2a8744e97b2f8c897b0e978829c4a57a97f",
+    "size_bytes": 1799
+  },
+  "validation_p100_s44.npz": {
+    "sha256": "9fe74e67e4e183762b0c4dbc91067e7c5c5be55e51dccb3d878c746514777538",
+    "size_bytes": 1687320
+  },
+  "validation_p10_s42.json": {
+    "sha256": "dd3a7ef7bfdc5cb3c7dc980c8cecc59d1bfa0d231e5181b89236cea56894a7f3",
+    "size_bytes": 1848
+  },
+  "validation_p10_s42.npz": {
+    "sha256": "5fcc99fa7def3f7fda3cd76a6e91e518de980bd9c4dd8eb966ed091797d66285",
+    "size_bytes": 1709912
+  },
+  "validation_p10_s43.json": {
+    "sha256": "e966a8a0722a1ef17f84d4866b4b87922e75a634fdec13eaccd2621564552d3c",
+    "size_bytes": 1791
+  },
+  "validation_p10_s43.npz": {
+    "sha256": "a4deb54aabaa6e0c3ef4cbf2cdfb12ee26d77bb092b0640815ad8ab23f3ec742",
+    "size_bytes": 1713660
+  },
+  "validation_p10_s44.json": {
+    "sha256": "b2c063461f4f9e6be3d116c08107cd74e65e59e9c2b73be97f16b0f53264448c",
+    "size_bytes": 1793
+  },
+  "validation_p10_s44.npz": {
+    "sha256": "26c6470e08fbae52cc56d2d87487557f77641644717f797198203bcc64fbfc41",
+    "size_bytes": 1709206
+  },
+  "validation_p25_s42.json": {
+    "sha256": "37374892cd2776d08bd14c8cb1b96146d155345ae180d32549dcc2f8857f9627",
+    "size_bytes": 1888
+  },
+  "validation_p25_s42.npz": {
+    "sha256": "fac943dfb8fa401495c846ef8139341eee72a96676565a51ba25765dd12ee5f6",
+    "size_bytes": 1703034
+  },
+  "validation_p25_s43.json": {
+    "sha256": "75ecaa0157903fe7c48b4fbbbbf008f1eddad5f76de0b4b7ef8b749a54814741",
+    "size_bytes": 1802
+  },
+  "validation_p25_s43.npz": {
+    "sha256": "4e8290d31fc35de24d16d54d8cd6f7eec68965f764994137cdb4a4f3bddb10a2",
+    "size_bytes": 1702545
+  },
+  "validation_p25_s44.json": {
+    "sha256": "a720d71e2682544911d01f68c80e108738cb584fd049bf68fdf518ab200efca0",
+    "size_bytes": 1803
+  },
+  "validation_p25_s44.npz": {
+    "sha256": "333a11757a6afcb11cca446147c97e1dbc62a746cec56382690cbc19b321070c",
+    "size_bytes": 1699062
+  },
+  "validation_records.json": {
+    "sha256": "97406bf60f0e16fd2661e434d604af2f90ef75b021467c985d5ea97aa33bee4c",
+    "size_bytes": 17638
+  },
+  "validation_summary.csv": {
+    "sha256": "92ea0776bf6a9a9b3b8eb380bfb10b0440994fa29f7d1b74566957f4a2277a1b",
+    "size_bytes": 509
+  }
+}
