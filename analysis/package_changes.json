@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "run_id": "ner_20261117T193146Z-d76812",
+  "result_files_preserved": 44,
+  "notebook_before_sha256": "227876ff910dae19f5b7e93b1a8c346ebe8cc9ba4fdd033f88324771ce9908bc",
+  "notebook_after_sha256": "5d142be3892ae003abfffb7e7871a0644c07d204fe5d9581ddafbac16ddbd8db",
+  "code_cells_preserved": 16,
+  "code_changed": false,
+  "changes": [
+    "added verified result summary and interpretation",
+    "five reviewed validation rows",
+    "all 44 original result files retained",
+    "integrated executed Colab notebook",
+    "removed Colab-only progress/download widgets and interaction metadata"
+  ],
+  "executed_colab_notebook_received": true,
+  "training_rerun": false,
+  "execution_counts_preserved": true,
+  "numerical_outputs_preserved": true,
+  "display_cleanup": {
+    "original_outputs": 82,
+    "retained_outputs": 65,
+    "removed_widget_outputs": 15,
+    "removed_download_javascript_outputs": 2,
+    "removed_colab_table_metadata": 8,
+    "removed_nonstandard_stream_metadata": 26
+  }
+}

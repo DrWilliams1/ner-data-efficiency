@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "validation_runs": 9,
+  "test_predictions_verified": true,
+  "checks": [
+    "saved probabilities and labels",
+    "strict entity metrics",
+    "fixed validation data",
+    "nested training subsets",
+    "paired classifier initialization",
+    "selection rule",
+    "error worksheet rows",
+    "comparison tables and sample SD",
+    "artifact hashes"
+  ],
+  "limits": "Checks internal consistency; does not rerun training or prove the source labels are correct.",
+  "verified_on": "2026-11-17",
+  "source_archive": "ner_20261117T193146Z-d76812.zip",
+  "source_archive_sha256": "1face70d1ab4d021a323dcab8a4387cdbb8b1cf923757ec4fef4a86ab7b4f79c",
+  "all_44_supplied_files_preserved_byte_for_byte": true,
+  "pinned_dataset_gold_label_match": {
+    "validation": true,
+    "test": true,
+    "dataset_revision": "19edcb426bfd625c275c17b9a99b2239243f4377"
+  },
+  "model_retrained_during_packaging": false,
+  "executed_colab_notebook_received": true,
+  "review_scope": "Offline numerical verification and selected validation examples; not independent annotation review.",
+  "executed_notebook": {
+    "source_filename": "NER_Data_Efficiency(1).ipynb",
+    "source_sha256": "227876ff910dae19f5b7e93b1a8c346ebe8cc9ba4fdd033f88324771ce9908bc",
+    "code_cells_match_prepared_experiment": true,
+    "code_cells": 16,
+    "execution_counts": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "exact_json_output_matches": [
+      "environment.json",
+      "data_record.json",
+      "selection.json",
+      "final_test_metrics.json"
+    ],
+    "all_nine_training_summaries_match": true,
+    "result_archive_identifier_matches": true,
+    "display_cleanup": {
+      "original_outputs": 82,
+      "retained_outputs": 65,
+      "removed_widget_outputs": 15,
+      "removed_download_javascript_outputs": 2,
+      "removed_colab_table_metadata": 8,
+      "removed_nonstandard_stream_metadata": 26
+    }
+  }
+}
