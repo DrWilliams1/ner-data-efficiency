@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "notebook_schema": "passed",
+  "code_syntax": "passed",
+  "unit_tests": {
+    "passed": 11,
+    "failed": 0,
+    "randomized_strict_seqeval_comparisons": 200
+  },
+  "actual_pinned_dataset_alignment": {
+    "train": {
+      "sentences": 14041,
+      "scored_words": 203621,
+      "max_subword_length": 173,
+      "invalid_gold_i_transitions": 0
+    },
+    "validation": {
+      "sentences": 3250,
+      "scored_words": 51362,
+      "max_subword_length": 151,
+      "invalid_gold_i_transitions": 0
+    },
+    "test": {
+      "sentences": 3453,
+      "scored_words": 46435,
+      "max_subword_length": 148,
+      "invalid_gold_i_transitions": 0
+    }
+  },
+  "tiny_cpu_integration": {
+    "status": "passed",
+    "training_runs": 9,
+    "test_evaluations": 1,
+    "model": "random one-layer BERT; hidden size 32",
+    "data_sentences": {
+      "train": 40,
+      "validation": 16,
+      "test": 16
+    },
+    "scope": "notebook train/predict/save/select/test/plot/export flow; not performance evidence"
+  },
+  "offline_verifier": {
+    "status": "passed",
+    "validation_runs": 9,
+    "test_predictions_verified": true,
+    "checks": [
+      "saved probabilities and labels",
+      "strict entity metrics",
+      "fixed validation data",
+      "nested training subsets",
+      "paired classifier initialization",
+      "selection rule",
+      "error worksheet rows",
+      "comparison tables and sample SD",
+      "artifact hashes"
+    ],
+    "limits": "Checks internal consistency; does not rerun training or prove the source labels are correct."
+  },
+  "tampered_metric_rejected": true,
+  "full_bert_experiment": "not_executed; GPU run required",
+  "validation_environment": {
+    "torch": "2.6.0+cpu",
+    "transformers": "4.57.6",
+    "datasets": "4.4.1",
+    "gpu_available": false
+  },
+  "notebook_sha256": "76db4cf82eef1908677fcef364eeb34857d384d5be71163dbc8cd6353fd8fde4"
+}
